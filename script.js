@@ -9,8 +9,12 @@ function limpiar() {
 function calcular() {
     let pantalla = document.getElementById("pantalla");
 
+    let expresion = pantalla.value
+        .replace(/×/g, "*")
+        .replace(/÷/g, "/");
+
     try {
-        pantalla.value = eval(pantalla.value);
+        pantalla.value = eval(expresion);
     } catch {
         pantalla.value = "Error";
     }
