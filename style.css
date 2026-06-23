@@ -3,18 +3,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: Arial;
+    height: 100px;
+    font-family: italic;
 }
 
 .calculadora {
-    background: white;
+    background: skyblue;
     padding: 20px;
     border-radius: 15px;
 }
 
 #pantalla {
-    width: 100%;
+    width: 100px;
     height: 50px;
     font-size: 25px;
     margin-bottom: 10px;
