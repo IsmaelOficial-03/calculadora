@@ -1,6 +1,6 @@
 body {
     background: black;
-    color: white;
+    color: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .calculadora {
-    background: skyblue;
+    background: blue;
     padding: 20px;
     border-radius: 15px;
 }
